@@ -1,4 +1,4 @@
-# This repro is used to test print chinese string in consolse
+# This project is used to test print Chinese string in consolse
 
 Below is 2 different ways to make it works.
 
