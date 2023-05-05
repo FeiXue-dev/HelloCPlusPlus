@@ -38,7 +38,6 @@ int main(int argc, char *argv[])
 
 void PrintUsage()
 {
-    using namespace std;
     wcout << L"usage: hellostring.exe /[1|2]" << endl;
     wcout << L"[1]\tPrint chinese characters with set local and change the code page by default." << endl;
     wcout << L"[2]\tPrint chinese characters with _setmode." << endl;
@@ -46,7 +45,6 @@ void PrintUsage()
 
 void FirstWay()
 {
-    using namespace std;
     auto codePage = GetConsoleOutputCP();
     wcout << L"current code page: " << codePage << endl;
     wcout.imbue(locale("chs"));
